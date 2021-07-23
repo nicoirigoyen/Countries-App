@@ -1,0 +1,82 @@
+.paginado{
+
+    text-align: center;
+    font-size: 2vw;
+}
+.np{
+    color: crimson;
+}
+.count{
+    font-size: 2vw;
+    text-align: center;
+}
+.containerPageNumbers{
+
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+.pageNumbers {
+    justify-content: center;
+    padding-left: 2vw;
+    align-items: center;
+    list-style: none;
+    display: flex;
+    margin-left: 2vw;
+    width: 80%;
+
+
+}   
+.pageNumbers li{
+    margin-top: 2vw;
+    margin-left: 4vw ;
+    text-align: center;
+    color: rgb(10, 10, 10);
+    align-items: center;
+   padding:0.2vw;
+   border: 1px solid rgba(255, 255, 255, 0);
+   border-radius: 7vw;
+   cursor: pointer;
+   font-family: Rajdhani;
+   font-size: 2.8vw;
+   margin-top: 0.2vw;
+}  
+.pageNumbers li:active{
+    color: brown;
+}  
+.pageNumbers li:visited{
+    color: brown;
+}  
+.pageNumbers li button{
+    
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    font-size: 2.2vw;
+    cursor: pointer;
+    align-items: baseline;
+    margin-top: -1vw;
+    font-family: arial;
+    font-weight: bolder;
+    
+} 
+
+
+
+.foundHomee{
+    display: contents;
+}
+.HomeContainer{
+    min-height: 100vh;
+    height: 100%; 
+
+  
+}
+.container{
+    background: #D3CCE3 !important;
+background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3) !important;  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E9E4F0, #D3CCE3) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}

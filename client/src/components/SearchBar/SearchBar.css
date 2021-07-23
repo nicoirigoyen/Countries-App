@@ -1,0 +1,107 @@
+.containerNavBar{
+	width: 100%;
+    background: #D3CCE3 !important;
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3) !important;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+ .search{
+     width: 30vw;
+    background-color: rgba(97, 231, 255, 0.096);
+	margin:auto;
+	justify-content: center;
+	align-items: center;
+	margin-right: 2vw;
+    display: flex;
+    text-align: center;
+    border-radius:1.5vw;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.7vw;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-weight: 900;
+    margin-top: 2vw;
+}
+
+.search:focus{
+    border:0.2vw solid rgb(6, 20, 6);
+   
+}
+.navbar {
+    justify-content:space-evenly;
+    top: 0;
+    left: 0;
+    /* background-color: #303236; */
+    display: flex;
+    align-items: center;
+    padding: 0 2vw;
+    box-sizing: border-box;
+}
+
+
+.formNavBar{
+    display: flex;
+    justify-content:space-evenly;
+    margin:auto;
+    align-items: center;
+}
+ 
+
+.container-titulo{
+    padding: 0.75vw;
+}
+.labelOrder{
+	display: flex;
+	font-family: 'Encode Sans SC', sans-serif;
+	padding: 0;
+    font-size: 1.4vw;
+    color: rgb(0, 0, 0);
+	margin-top: 1vw;
+    font-weight: 900;
+	
+}
+.option{
+    background-color: rgb(255, 254, 254);
+}
+.selectOrder{
+    font-weight: 900;
+	display: flex;
+    font-size: 1.3vw;
+    color: rgb(0, 0, 0);
+	/* margin: 1vw; */
+	border-radius: 1vw;
+	border-top: 0;
+	font-family: 'Encode Sans SC', sans-serif;
+	width: 10vw;
+	background-color: rgba(97, 231, 255, 0.096);
+}
+/* .titulo{
+    text-decoration: underline;
+    font-family:Playball;
+    text-align: start;
+    display:contents;
+    font-size: 6vw;
+    color: #fff;
+    text-shadow: #fff 0 0 10px;
+    text-transform: uppercase; 
+} */
+.countainerSelectt{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+
+}
+.countainerSelect{
+margin-right: 2vw;
+}
+
+/* .titulo:hover,
+.titulo.active {
+   
+    color: #3cf9ff;
+    transition: 100ms ease-in-out;
+} */

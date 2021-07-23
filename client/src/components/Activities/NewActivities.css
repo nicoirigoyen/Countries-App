@@ -1,0 +1,138 @@
+.fondo{
+    height: 100%;
+    background-image: url('../../img/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.formAct{
+    align-items: center;
+    justify-content:center;
+    border-radius:5vw;
+    background: rgb(0,0,0);
+    background: linear-gradient(0, rgba(0,0,0,0.6) 50%, rgba(34, 41, 43, 0.6) 100%);
+    margin:5vw ;
+    padding:10vw;
+    display:flex;
+    flex-direction: column;
+    /* width:35vw; */
+    width: 60%;
+    text-align: center;
+}
+
+    .tittles{
+        text-decoration: none;
+    
+        padding: 2vw;
+        font-size: 4vw;
+        min-height:10%;
+        /* margin:auto; */
+        text-align: center;
+        font-family: Playball;
+
+    }
+    .tittles:hover{
+        color: rgb(74, 175, 197);
+    }
+    .inputs{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-around;
+        min-height:90%;
+        color: whitesmoke;
+        font-family: Playball;
+    }
+    .name{
+        
+        display:flex;
+        justify-content: space-between;
+        font-size: 1.5vw;
+        font-family: Playball;
+        color: rgb(74, 175, 197);
+    }
+    .colorInputName{
+        font-family: Arial, Helvetica, sans-serif;
+        color: darkred;
+        font-size:17px;
+        font-weight: bold;
+        background: rgb(255, 255, 255);
+        border-radius: 0.5vw;
+        text-align: center;
+    }
+    .colorInputdificult{
+        font-family: Playball;
+        font-size:16px;
+        font-weight: bold;
+        background: rgb(255, 255, 255);
+        border-radius: 0.5vw;
+        text-align: center;
+    }
+    .dificultty{
+        display:flex;
+        justify-content: space-between;
+        font-size: 1.5vw;
+        font-family: Playball;
+        color: rgb(74, 175, 197);
+    }
+    .colorInputduratiob{
+        font-family:arial;
+        font-size:16px;
+        font-weight: bold;
+        background: rgb(255, 255, 255);
+        border-radius: 0.5vw;
+        text-align: center;
+    }
+    
+    .duration{
+        display:flex;
+        justify-content: space-between;
+        font-size: 1.5vw;
+        font-family: Playball;
+        color: rgb(74, 175, 197);
+    }
+    .duration input{
+        font-family:arial;
+        font-size:16px;
+        font-weight: bold;
+        background: rgb(255, 255, 255);
+        border-radius: 0.5vw;
+        text-align: center;
+        font-family: Playball;
+    }
+    .season{
+        display:flex;
+        justify-content: space-between;
+        font-size: 1.5vw;
+        font-family: Playball;
+        color: rgb(74, 175, 197);
+    }
+    
+    .season select{
+        font-family: Playball;
+        font-size:18px;
+        font-weight: bold;
+        background: rgb(255, 255, 255);
+        border-radius: 0.5vw;
+
+    }
+    .crear{
+        
+        font-size: 1.4vw;
+       border-radius: 1vw;
+        margin: 1vw;
+        text-align: center;
+        font-family: Italian;
+        height:60%;
+        width: 30vw;
+    }
+    .crear:hover{
+        color:rgb(63, 204, 255);
+    }
+    .Paises{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    height:40%;
+    border-radius: 5px;
+    }

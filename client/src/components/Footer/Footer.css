@@ -1,0 +1,44 @@
+.iconImg{
+    padding: 5%;
+    /* margin-left: 10px; */
+
+}
+.links{
+    background-color: rgb(51, 52, 53);
+    font-family: monospace;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+
+}
+.iconosRedes{
+    align-items: center;
+}
+.p{
+    
+    color: rgb(95, 93, 93);
+}
+.namee{
+
+    background-color: rgb(49, 47, 51);
+}
+button{
+        
+        border-radius: 2vw;
+        background-color: rgba(87, 86, 86, 0.185);
+        color: crimson;
+        border:none;
+        margin: 0.8vw;
+        padding: 1.5vw;
+    }
+    button:hover{
+        border: solid rgb(218, 67, 67) 0.1vw;
+    }
+    span{
+        color: white;
+        font-family:fantasy;
+        font-size: 1.8vw;
+        text-decoration: underline;
+    }

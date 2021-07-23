@@ -1,0 +1,79 @@
+.navbar{
+     background-color: rgb(66, 212, 176) !important;
+}
+
+.list{
+    width: 100vw;
+    display: flex;
+    margin:auto;
+    list-style: none;
+    padding: 1.5vw;
+
+}
+.list li{
+    margin:10px;
+    padding: 1vw;
+    color: #000000;
+    text-align: center;
+    padding: 1vw;
+    font-weight: bold;
+    
+    
+}
+.list li a{
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    
+    
+}
+/* .list li a:hover{
+    color:rgb(255, 255, 255);
+} */
+
+
+
+ .tituloNavBar{
+    font-size: 4vw;
+    font-family: Rajdhani;
+    text-align: start;
+    display:contents;
+    color: #fff;
+    /* text-shadow: rgb(255, 255, 255) 0 0 10px; */
+    text-transform: uppercase; 
+} 
+.titulo a{
+    font-size: 5vw;
+}
+.countainerSelectt{
+    display: flex;
+    
+
+}
+.iconGithub{
+    display: contents;
+    
+}
+/* .titulo:hover,
+.titulo.active {
+   
+    color: #ff533c;
+    transition: 100ms ease-in-out;
+}  */
+.navbarItem{
+    font-family: Cinzel;
+    position: absolute;
+    right: 8vw;
+    font-size: 1.8vw;
+    text-decoration: underline;
+}
+.navbarItem2{
+    font-family: Cinzel;
+    position: absolute;
+    right: 14vw;
+    font-size: 1.8vw;
+    text-decoration: underline;
+}
+.iconGithub{
+   padding: 10px;
+  
+}

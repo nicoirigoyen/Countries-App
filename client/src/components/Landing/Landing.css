@@ -1,0 +1,48 @@
+
+
+.foundLanding{
+    height: 100vh;
+    background-image: url('../../img/fondo4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    display: flex;
+}
+.containerL{
+    margin:auto;
+    background-color: #3d3d3d8c;
+    width: 15vw;
+    height: 50vh;
+    border-radius: 2vw;
+    align-items: center;
+}
+.containerL p{
+    color: #fff;
+    text-shadow: rgb(255, 255, 255) 0 0 10px;
+    text-transform: uppercase; 
+    font-size:2.4vw;
+    text-align: center;
+    margin-top: 4vw;
+    font-family:Playfair Display SC;
+    padding: 1vw;
+}
+.irAlSitio{
+    border: 1px solid black;
+    align-items: center;
+    background-color: #a539399d;
+    width: 8vw;
+    height: 4vw;
+    border-radius: 1.5vw;
+    justify-content: center;
+    font-family: Playfair Display SC;
+    margin:auto;
+    display: flex;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2vw;
+    margin-top: 30%;
+    color: black;
+}
+.irAlSitio:hover{
+    background-color: #a53939;
+}

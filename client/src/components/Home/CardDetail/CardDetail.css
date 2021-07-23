@@ -1,0 +1,72 @@
+.container{
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+	margin: auto;
+	align-content: flex-start;
+	/* background: #606c88; 
+	background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  */
+	padding: 1vw;
+	
+}
+
+.CardDetail{
+	box-shadow: 0 2px 80px rgba(0, 0, 0, 0.87);
+	background: #141E30;  
+	background: linear-gradient(to right, #0c294b, #0f1f49); 
+	width: 30vw;
+	border-radius: 8px;
+
+	margin: 1.5vw;
+	text-align: center;
+	
+	transition: all 0.25s;
+
+
+}
+.CardDetailName{
+	font-size: 4vw;
+	font-family:Cinzel ;
+	
+	color: white;
+}
+.pActt{
+	font-size: 1.7vw;
+	color:rgb(134, 225, 250);
+
+}
+p {
+	text-align: center;
+	color: rgb(255, 255, 255);
+	font-size: 1.3vw;
+	font-family:Cinzel ;
+}
+p:hover{
+	color: white;
+}
+.pAct {
+	font-size: 1.6vw;
+	color:rgb(134, 225, 250);
+}
+.pActname {
+	font-size: 1.2vw;
+	color:white;
+}
+.pActnamee{
+	font-family:Cinzel ;
+	font-size: 1.1vw;
+	color:red;
+}
+
+h3{
+	font-size: 2.4vw;
+}
+.span{
+	color: rgb(20, 165, 209);
+	font-size: 1.3vw;
+}
+.spann{
+	color: rgb(20, 165, 209);
+	font-size: 1.4vw;
+}
