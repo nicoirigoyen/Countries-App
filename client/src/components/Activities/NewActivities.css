@@ -1,10 +1,11 @@
 .fondo{
-    height: 100%;
+    
     background-image: url('../../img/fondo.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
 }
 .formAct{
     align-items: center;
@@ -12,7 +13,7 @@
     border-radius:5vw;
     background: rgb(0,0,0);
     background: linear-gradient(0, rgba(0,0,0,0.6) 50%, rgba(34, 41, 43, 0.6) 100%);
-    margin:5vw ;
+    margin:10vw ;
     padding:10vw;
     display:flex;
     flex-direction: column;
@@ -32,9 +33,7 @@
         font-family: Playball;
 
     }
-    .tittles:hover{
-        color: rgb(74, 175, 197);
-    }
+  
     .inputs{
         display:flex;
         flex-direction:column;
@@ -44,47 +43,53 @@
         font-family: Playball;
     }
     .name{
-        
+        margin-top: 0.8%;
         display:flex;
         justify-content: space-between;
-        font-size: 1.5vw;
+        font-size: 1.8vw;
         font-family: Playball;
         color: rgb(74, 175, 197);
     }
     .colorInputName{
-        font-family: Arial, Helvetica, sans-serif;
-        color: darkred;
-        font-size:17px;
-        font-weight: bold;
+        margin-top: 0.8%;
+        font-family: Playball;
+        width: 20vw;
+        font-size:1.5vw;
+
         background: rgb(255, 255, 255);
         border-radius: 0.5vw;
         text-align: center;
     }
     .colorInputdificult{
+        margin-top: 0.8%;
+        width: 20vw;
         font-family: Playball;
-        font-size:16px;
-        font-weight: bold;
+        font-size:1.5vw;
         background: rgb(255, 255, 255);
         border-radius: 0.5vw;
         text-align: center;
     }
     .dificultty{
+        margin-top: 0.8%;
         display:flex;
         justify-content: space-between;
-        font-size: 1.5vw;
+        font-size: 1.8vw;
         font-family: Playball;
         color: rgb(74, 175, 197);
     }
     .colorInputduratiob{
+        margin-top: 0.8%;
+        width: 20vw;
         font-family:arial;
-        font-size:16px;
-        font-weight: bold;
+        font-size:1.5vw;
         background: rgb(255, 255, 255);
         border-radius: 0.5vw;
         text-align: center;
     }
     
     .duration{
+        font-size: 1.8vw;
+        margin-top: 0.8%;
         display:flex;
         justify-content: space-between;
         font-size: 1.5vw;
@@ -92,47 +97,68 @@
         color: rgb(74, 175, 197);
     }
     .duration input{
-        font-family:arial;
-        font-size:16px;
-        font-weight: bold;
+        margin-top: 0.8%;
+        width: 20vw;
+        /* font-family:arial; */
+        font-size:1.5vw;
         background: rgb(255, 255, 255);
         border-radius: 0.5vw;
         text-align: center;
         font-family: Playball;
     }
     .season{
+        margin-top: 0.8%;
         display:flex;
         justify-content: space-between;
-        font-size: 1.5vw;
+        font-size: 1.8vw;
         font-family: Playball;
         color: rgb(74, 175, 197);
     }
-    
-    .season select{
-        font-family: Playball;
-        font-size:18px;
-        font-weight: bold;
+    .colorInputseason{
+        width: 20.5vw;
+        margin-top: 0.8%;
+        /* font-family:arial; */
+        font-size:1.5vw;
         background: rgb(255, 255, 255);
         border-radius: 0.5vw;
+        text-align: center;
+        font-family: Playball;
+    }
+    .itemsSelected{
+        font-family: Playball;
+        font-size:1.5vw;
+        background: rgb(255, 255, 255);
+        border-radius: 0.5vw;
+        align-items: center;
 
+    }
+    .titleSelected{
+        margin-top: 1vw;
+        font-size: 2vw;
+    }
+    .selectedCountries{
+        width: 40vw;
+        height: 8vw;
     }
     .crear{
         
-        font-size: 1.4vw;
-       border-radius: 1vw;
-        margin: 1vw;
+        font-size: 1.5vw;
+       border-radius: 0.8vw;
+        margin-top: 2vw;
+        margin-left: 30%;
         text-align: center;
-        font-family: Italian;
-        height:60%;
-        width: 30vw;
+        font-family:Playball;
+        /* height:60%; */
+        width: 18vw;
     }
     .crear:hover{
-        color:rgb(63, 204, 255);
+        border-color:rgb(55, 170, 212);
+        color:rgb(55, 170, 212);
     }
     .Paises{
     display:flex;
     flex-direction:column;
     justify-content:space-between;
     height:40%;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     }

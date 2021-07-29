@@ -19,9 +19,8 @@ export function rootReducer (state = initialState, action) {
         
         case 'GET_IDCOUNTRY':
             return {
-                    ...state, idCountries: state.countries.map(country => { return { id: country.alpha3Code, name: country.name, } })
+                    ...state, idCountries: action.payload}
                     
-            }
         case 'ORDER_CONTINENT':
             return{
                 ...state, countries: action.payload

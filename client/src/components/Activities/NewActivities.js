@@ -11,7 +11,6 @@ const Crear = () => {
     const [pais, setPais] = useState([])
     const [paises, setPaises] = useState([])
     const [loading, setLoading] = useState(false)
-    const [loading2, setLoading2] = useState(true)
     const [form, setForm] = useState({
         name: '',
         dificultty: '',
@@ -25,15 +24,15 @@ const Crear = () => {
     //     filteredPaises = filteredPaises.filter(p => p.activities && p.activities.length > 0)
     //     setPaises(filteredPaises)
     // };
-    useEffect(() => {
-        dispatch(getCountries())
+    useEffect(async ()  => {
+        await dispatch(getIdCountries())
+        setPaises(idCountries);
         setLoading(true)
-        // setPaises(countries);
       }, []);
 
-    useEffect(() => {
-        setTimeout(dispatch(getIdCountries()),1000)
-      });
+    // useEffect(() => {
+    //     setTimeout(dispatch(getIdCountries()),1000)
+    //   });
       
 
 
@@ -44,13 +43,8 @@ const Crear = () => {
         })
     };
     const handlePais = (event) => {
-
-        //AGREGAR VARIOS PAISES CORREGIR SI ESTA CHECKED QUE SE PINTE DE ROJO
         event.preventDefault();
-        // const opciones = event.target.options;
         const opciones = event.target.value;
-        // const seleccionadas = [];
-        // for (let i = 0; i < opciones.length; i++) {opciones[i].selected && seleccionadas.push(seleccionadas, opciones[i].value)};
         setPais([...pais, opciones])
         
     };
@@ -61,8 +55,6 @@ const Crear = () => {
         dispatch(postCountry(form, pais))
         .then(()=>alert('Activity Created'))
         event.target.reset();
-        
-        // setTimeout(() => { dispatch(getIdCountries()) }, 500)
     };
 return (
     <div className='fondo'>
@@ -83,52 +75,31 @@ return (
             </div>
 
             <div className='season'>
-                <label>Season:</label>
-                <select name='season' onChange={handleInputChange} required>
-                    <option></option>
-                    <option value='Verano'>Summer </option>
-                    <option value='Invierno'>Winter </option>
-                    <option value='Otoño'>Spring </option>
-                    <option value='Primavera'>Autumn</option>
+                <label >Season:</label>
+                <select className='colorInputseason' onChange={handleInputChange} required>
+                    <option className='itemsSelected'></option>
+                    <option className='itemsSelected' value='Verano'>Summer </option>
+                    <option className='itemsSelected' value='Invierno'>Winter </option>
+                    <option className='itemsSelected' value='Otoño'>Spring </option>
+                    <option className='itemsSelected' value='Primavera'>Autumn</option>
                 </select>
             </div>
 
-            {/* MULTIPLES PAISES */}
             <div className='Paises'>
-                <label>Paises:</label>
-                {/* (
-                countries?.length ? <div className='container'>                     
-                {countries.map(i =>{
-                return (<Card country={i} key={i.alpha3Code} />)
-                    })}
-    </div>:
-        <div className='container'>           
-                  {countries.map(i =>{
-                            return (<Card country={i} key={i.alpha3Code} />)
-                })}
-        </div>
-    ) }*/
-                
-                <select className='' multiple name='pais' onChange={handlePais} required>
+                <label className='titleSelected'>Selected Countries:</label>
+                {
+                <select className='selectedCountries' multiple name='pais' onChange={handlePais} required>
                     {loading ? idCountries.map((country, i) => {
                         return <option value={country.id} key={i}>{country.name}</option>
-                    }) : <option >Cargando</option>}
+                    }) : <option >Loading..</option>}
                 </select>}
             </div>
                 
-            <input className='crear' type='submit' value='Create Activity ' />
+            <input className='crear' type='submit' value='Add' />
         </div>
                 
     </form>
-            {/* <div className='creados'>
-                <div className='title'>
-                    <span>Paises con actividades</span>
-                    <button className='crear' onClick={() => { setLoading2(!loading2) }}>Show</button>
-                </div>
-                <div className='countries'>
-                {loading ? <p>Loading</p>  : paises.length > 0 ? paises.map(pais => <Card act={true} pais={pais} key={pais.alpha3Code} />) : <div className='nada'>No se han creado Actividades aún</div>}
-                     </div>
-            </div> */}
+  
 
 </div>
 )};

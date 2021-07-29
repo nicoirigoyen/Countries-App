@@ -13,7 +13,7 @@ const Footer = () => {
         
             <div className='links'>
                 
-                    <a className="iconosRedes" href='https://github.com/nicoirigoyen/PI-Countries-FT12'>
+                    <a className="iconosRedes" href='https://github.com/nicoirigoyen/Countries-App'>
                         <img id='github' src={github} width="40" height="40" className='iconImg' alt=''></img>
                     </a>  
                

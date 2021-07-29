@@ -6,7 +6,7 @@ import Footer from "./components/Footer/Footer"
 import Home from "./components/Home/Home"
 import NewActivity from "./components/Activities/NewActivities"
 import CardDetail from "./components/Home/CardDetail/CardDetail"
-// import Pagination from "./components/Home/Pagination"
+
 
 
 function App() {
@@ -14,12 +14,11 @@ function App() {
 
     <div className="App">
       <BrowserRouter>
-        <Route path="/countries" component={NavBar}/>
-        <Route exact path="/countries" component={Home}/>
+        <Route path="/" component={NavBar}/>
+        <Route exact path="/" component={Home}/>
         <Route exact path="/countries/:id" component={CardDetail}/>
         <Route exact path="/activities" component={NewActivity}></Route>
-        {/* <Route path="/countries" component={Pagination}></Route> */}
-        <Route path="/countries" component={Footer}></Route>
+        <Route path="/" component={Footer}></Route>
         <Route path="/activities" component={Footer}></Route>
       </BrowserRouter>
     </div>
