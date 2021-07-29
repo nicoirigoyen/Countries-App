@@ -6,9 +6,14 @@ const {
   DB_USER, DB_PASSWORD, DB_HOST,
 } = process.env;
 
-const sequelize = new Sequelize(`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/countries`, {
+const sequelize = new Sequelize('postgres://jyldawgsjvsjzu:b3057daca6dc54ea9375a98eddd0661d492822e4cb07a31f9a7ec7a7b48ae53c@ec2-35-174-122-153.compute-1.amazonaws.com:5432/d3kulp9qs3h8pi', {
   logging: false, // set to console.log to see the raw SQL queries
   native: false, // lets Sequelize know we can use pg-native for ~30% more speed
+  dialectOptions: {
+    ssl: {
+        rejectUnauthorized: false
+    }
+    }
 });
 const basename = path.basename(__filename);
 

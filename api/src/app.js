@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require('path');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
@@ -27,8 +28,26 @@ server.use((req, res, next) => {
 //Setamos los headers
 // server.use(setHeaders);
 
+server.use('/api', routes);
 
-server.use('/', routes);
+
+const ___dirname = path.resolve()
+
+
+if (process.env.NODE_ENV === 'production') {
+    server.use(express.static(path.join(___dirname, '../client/build')))
+  
+    console.log(___dirname)
+    server.get('*', (req, res) =>
+      res.sendFile(path.join(___dirname, '../client', 'build', 'index.html'))
+    )
+  } else {
+    server.get('/', (req, res) => {
+      res.send('API is running....')
+    })
+  }
+
+
 
 
 // Error catching endware.

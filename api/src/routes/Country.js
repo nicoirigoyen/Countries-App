@@ -14,7 +14,7 @@ const { Op } = require("sequelize");
 //   - Debe traer solo los datos pedidos en la ruta de detalle de país
 //   - Incluir los datos de las actividades turísticas correspondientes
 
-server.get("/:id", async (req, res, next) => {
+server.get("/api/:id", async (req, res, next) => {
     const { id } = req.params;
 
       const pais = await Country.findByPk(id, {
@@ -26,7 +26,7 @@ server.get("/:id", async (req, res, next) => {
       
 
 
-server.get("/", async (req, res, next) => {
+server.get("/api", async (req, res, next) => {
 
   const {page} = req.query;
   const pag = page * 10

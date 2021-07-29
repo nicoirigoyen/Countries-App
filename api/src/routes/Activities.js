@@ -8,7 +8,7 @@ const { Activities,Country } = require("../db.js");
 // [ ] __POST /activity__:
 //   - Recibe los datos recolectados desde el formulario controlado de la ruta de creación de actividad turística por body
 //   - Crea una actividad turística en la base de datos
-server.post("/", async (req, res)=>{
+server.post("/activities", async (req, res)=>{
     var { name, dificultty, duration, season, Countries } = req.body;
     
     let actividad = await Activities.create({
@@ -17,7 +17,6 @@ server.post("/", async (req, res)=>{
         duration,
         season
     })
-    console.log(Countries)
     Countries.forEach(async (pais) => {
         let country = await Country.findOne({
             where: { id: pais }
