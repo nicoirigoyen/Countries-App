@@ -9,11 +9,11 @@ export default function NavBar() {
       <ul className="list">
         
         <li >
-          <a className="tituloNavBar" href="/countries">Countries</a>
+          <a className="tituloNavBar" href="/">Countries</a>
         </li>
         
         <li className="navbarItem">
-          <a  href="/countries">Home</a>
+          <a  href="/">Home</a>
         </li>
 
         <li className="navbarItem2">

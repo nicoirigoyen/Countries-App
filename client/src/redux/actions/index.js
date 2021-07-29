@@ -3,7 +3,7 @@ import { BASE_URL, GET_COUNTRIES, FILTER_URL } from '../consts.js'
 
 export const getCountries = () => {
     return async (dispatch) => {
-        const request = await axios.get(`${GET_COUNTRIES}`)
+        const request = await axios.get(`${GET_COUNTRIES}/api`)
         dispatch({
             type: 'GET_COUNTRIES', payload: request.data.map(country => {
                 return {
@@ -20,7 +20,7 @@ export const getCountries = () => {
 }
 export const getIdCountries = () => {
     return async (dispatch) => {
-        const request = await axios.get(`${GET_COUNTRIES}`)
+        const request = await axios.get(`${GET_COUNTRIES}/api`)
         dispatch({
             type: 'GET_IDCOUNTRY', payload: request.data.map(country => {
                 return {
@@ -34,7 +34,7 @@ export const getIdCountries = () => {
 
 export const getCountry = (id) => {
     return async (dispatch) => {
-        const request = await axios.get(`${GET_COUNTRIES}/${id}`)
+        const request = await axios.get(`${GET_COUNTRIES}/api/${id}`)
         dispatch({type: 'GET_COUNTRY', payload: request.data})
         }
 }
