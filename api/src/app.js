@@ -39,7 +39,7 @@ if (process.env.NODE_ENV === 'production') {
   
     console.log(___dirname)
     server.get('*', (req, res) =>
-      res.sendFile(path.join(___dirname, '../client', 'build', 'index.html'))
+      res.sendFile(path.join(___dirname, '/../client', 'build', 'index.html'))
     )
   } else {
     server.get('/', (req, res) => {
