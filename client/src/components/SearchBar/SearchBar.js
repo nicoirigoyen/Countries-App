@@ -41,6 +41,7 @@ export default function SearchBar() {
     e.preventDefault();
     setOrder("");
     setOrder(e.target.name = [e.target.value])
+    console.log(order)
   }
   const handleChangepopu = (e)=>{
     e.preventDefault();

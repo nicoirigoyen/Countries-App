@@ -6,10 +6,6 @@
 	margin: auto;
 	align-content: flex-start;
 
-	/* background: #606c88;  */
-	/* background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);   */
-
-	
 }
 .card p{
 	font-size: 1.3vw;
@@ -36,7 +32,7 @@
 
 }
 .containerVermas{
-	
+
 	font-family:Helvetica;
 	font-size: 1vw;
 	background-color:#424a5e;
@@ -48,7 +44,8 @@
 .containerVermas:hover{
 	background-color: rgb(66, 65, 65);
 	border: solid 0.1vw;
-	
+	border-color: rgba(255, 0, 0, 0);
+
 }
 .txtVermas{
 	font-family:Cinzel;
@@ -56,10 +53,10 @@
 	color: white;
 	padding: 1vw;
 	font-size: 1vw;
-	/* position:relative; */
+	text-align: center;
+
 }
 .cardName{
-	/* display:contents; */
 	font-size: 2vw;
 	margin: 1vw;
 	font-family:Cinzel;

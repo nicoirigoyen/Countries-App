@@ -30,11 +30,11 @@ export function rootReducer (state = initialState, action) {
             
         //     ...state, countries: action.payload
         // }
-        // case 'ORDERING':
-        // return{
+        case 'ORDERING':
+        return{
             
-        //     ...state, countries: action.payload
-        // }
+            ...state, countries: action.payload
+        }
         case 'ORDER_POPU':
         return{
             

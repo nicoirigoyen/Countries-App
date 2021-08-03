@@ -55,11 +55,11 @@
         font-family: Playball;
         width: 20vw;
         font-size:1.5vw;
-
         background: rgb(255, 255, 255);
         border-radius: 0.5vw;
         text-align: center;
     }
+    .colorInputName:focus{outline: none;}
     .colorInputdificult{
         margin-top: 0.8%;
         width: 20vw;
@@ -69,6 +69,8 @@
         border-radius: 0.5vw;
         text-align: center;
     }
+    .colorInputdificult:focus{outline: none;}
+    
     .dificultty{
         margin-top: 0.8%;
         display:flex;
@@ -86,6 +88,7 @@
         border-radius: 0.5vw;
         text-align: center;
     }
+    .colorInputduratiob:focus{outline: none;}
     
     .duration{
         font-size: 1.8vw;
@@ -114,6 +117,9 @@
         font-family: Playball;
         color: rgb(74, 175, 197);
     }
+    
+    .colorInputseason:focus{outline: none;}
+
     .colorInputseason{
         width: 20.5vw;
         margin-top: 0.8%;
@@ -132,6 +138,8 @@
         align-items: center;
 
     }
+    
+
     .titleSelected{
         margin-top: 1vw;
         font-size: 2vw;
@@ -140,6 +148,7 @@
         width: 40vw;
         height: 8vw;
     }
+    .selectedCountries:focus{outline: none;}
     .crear{
         
         font-size: 1.5vw;

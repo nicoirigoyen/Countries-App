@@ -40,7 +40,7 @@ export const getCountry = (id) => {
 }
 export const getNameCountry = (name) => {
     return async (dispatch) => {
-    const request = await axios.get(`${GET_COUNTRIES}?name=${name}`)
+    const request = await axios.get(`${GET_COUNTRIES}/api/?name=${name}`)
     dispatch({type:'GET_NAME_COUNTRY', 
         payload: request.data.map(e =>{
                 return {

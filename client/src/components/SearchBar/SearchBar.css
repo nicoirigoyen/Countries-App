@@ -27,7 +27,7 @@
 }
 
 .search:focus{
-    border:0.2vw solid rgb(6, 20, 6);
+    border:0.2vw solid rgb(41, 84, 87);
    
 }
 .navbar {
@@ -63,37 +63,36 @@
     font-weight: 900;
 	
 }
+
 .option{
     background-color: rgb(255, 254, 254);
 }
+
+
 .selectOrder{
     font-weight: 900;
 	display: flex;
     font-size: 1.3vw;
     color: rgb(0, 0, 0);
-	/* margin: 1vw; */
 	border-radius: 1vw;
 	border-top: 0;
 	font-family: 'Encode Sans SC', sans-serif;
 	width: 10vw;
 	background-color: rgba(97, 231, 255, 0.096);
 }
-/* .titulo{
-    text-decoration: underline;
-    font-family:Playball;
-    text-align: start;
-    display:contents;
-    font-size: 6vw;
-    color: #fff;
-    text-shadow: #fff 0 0 10px;
-    text-transform: uppercase; 
-} */
+.selectOrder:focus {
+    outline: none;
+    border:0.2vw solid rgb(41, 84, 87);
+}
+
+.selectOrder:active {
+    outline: none;
+}
+
 .countainerSelectt{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-
-
 }
 .countainerSelect{
 margin-right: 2vw;
