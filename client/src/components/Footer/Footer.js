@@ -14,22 +14,22 @@ const Footer = () => {
             <div className='links'>
                 
                     <a className="iconosRedes" href='https://github.com/nicoirigoyen/Countries-App'>
-                        <img id='github' src={github} width="4rem" height="4rem" className='iconImg' alt=''></img>
+                        <img id='github' src={github}  className='iconImg' alt=''></img>
                     </a>  
                
 
                     <a className="iconosRedes" href="https://www.linkedin.com/in/nicolas-irigoyen-terre/">
-                        <img id='linkedin' src={linkedin} width="4rem" height="4rem" className='iconImg' alt=''></img>
+                        <img id='linkedin' src={linkedin}  className='iconImg' alt=''></img>
                     </a>  
                
 
                     <a className="iconosRedes" href='https://www.facebook.com/nikitods23/'>
-                        <img id='facebook' src={facebook} width="4rem" height="4rem" className='iconImg' alt=''></img>
+                        <img id='facebook' src={facebook}  className='iconImg' alt=''></img>
                     </a>  
                
 
                     <a className="iconosRedes" href="nicoirigoyenterre@gmail.com">
-                    <img id="logo" src={gmail} width="40" height="40" className='iconImg' alt="" />
+                    <img id="logo" src={gmail}  className='iconImg' alt="" />
                     </a> 
                
             </div>
