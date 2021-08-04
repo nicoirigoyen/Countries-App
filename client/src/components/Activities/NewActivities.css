@@ -6,6 +6,7 @@
     background-position: center;
     display: flex;
     flex-direction: column;
+    min-height:100vh; 
 }
 .formAct{
     align-items: center;
@@ -145,8 +146,8 @@
         font-size: 2vw;
     }
     .selectedCountries{
-        width: 4rem;
-        height: 2rem;
+        width: 38rem;
+        height: 6rem;
     }
     .selectedCountries:focus{outline: none;}
     .crear{
@@ -168,6 +169,7 @@
     display:flex;
     flex-direction:column;
     justify-content:space-between;
-    height:40%;
+    height:5rem;
+    width: 12rem;
     /* border-radius: 5px; */
     }
