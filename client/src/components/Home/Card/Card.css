@@ -1,10 +1,7 @@
 .containerCard{
 
 	display: flex;
-	flex-wrap: wrap;
-	justify-content:center;
-	margin: auto;
-	align-content: flex-start;
+    flex-direction: column;
 
 }
 .card p{
@@ -62,4 +59,43 @@
 	font-family:Cinzel;
 	padding: 1.5%;
 	color: rgb(255, 255, 255);
+}
+
+
+@media (min-width:480px){
+	.containerCard{
+
+		display: flex;
+		justify-content: center;
+	
+	}
+
+	.card{
+		background-color: #4cceae!important;
+		background: radial-gradient(circle,#444444,#42d4b0);
+		padding: .4vw;
+		width: 15rem;
+		border-radius: 8px;
+		margin: 1.5vw;
+		text-align: center;
+		transition: all .25s;
+	}
+	.imageCard{
+		width: 90%;
+		border-radius: 1vh;
+	}
+	.cardName, .txtVermas {
+		font-family: Cinzel;
+		color: #fff;
+		font-size: 0.5rem;
+	}
+	.containerVermas {
+		font-family: Helvetica;
+		font-size: 1vw;
+		background-color: #424a5e;
+		border-radius: 1vw;
+	}
+	.continent{
+		font-size: 1vw;
+	}
 }

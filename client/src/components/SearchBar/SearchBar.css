@@ -109,30 +109,26 @@ margin-right: 2vw;
 @media (min-width:480px){
     .containerNavBar{
         width: 100%;
-        background: #D3CCE3 !important;
-        background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3) !important;  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #E9E4F0, #D3CCE3) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
+        background: #d3cce3!important;
+        background: linear-gradient(90deg,#e9e4f0,#d3cce3)!important;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
     }
     .search{
-        width: 36vw;
-       background-color: rgba(97, 231, 255, 0.096);
-       margin:auto;
-       justify-content: center;
-       align-items: center;
-       margin-right: 2vw;
-       display: flex;
-       text-align: center;
-       border-radius:1.5vw;
-       outline: none;
-       color: rgb(0, 0, 0);
-       font-size: 1.7vw;
-       font-family: 'Encode Sans SC', sans-serif;
-       font-weight: 900;
-       margin-top: 2vw;
+        width: 30vw;
+        background-color: rgba(97,231,255,.096);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        text-align: center;
+        border-radius: 1.5vw;
+        outline: none;
+        color: #000;
+        font-size: 1.7vw;
+        font-family: "Encode Sans SC",sans-serif;
+        font-weight: 900;
+        margin: 2vw 2vw auto auto;
    }
    .selectOrder{
     font-weight: 900;
@@ -145,8 +141,9 @@ margin-right: 2vw;
 	width: 15vw;
 	background-color: rgba(97, 231, 255, 0.096);
 }
-.countainerSelect{
-    margin-right: 2vw;
-    width: 5vw;
-    }
+
+.selectOrder:active {
+    outline: none;
+}
+
 }

@@ -68,10 +68,10 @@
 
 
 .foundHomee{
-    display: contents;
+    /* display: contents; */
 }
 .foundHome{
-    display: contents;
+    /* display: contents; */
 }
 .HomeContainer{
     min-height: 100vh;
@@ -80,17 +80,19 @@
   
 }
 .container{
-    min-height: 100vh;
+    
     background: #D3CCE3 !important;
-background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3) !important;  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #E9E4F0, #D3CCE3) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3) !important; 
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3) !important; 
+    flex-wrap: wrap;
+    justify-content: center;
+    
 }
 @media (min-width:480px){
  .container{   
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    /* flex-wrap: wrap;
+    justify-content: space-between; */
     /* display: block; */
 }
 }
