@@ -72,8 +72,8 @@
 
 	.card{
 		background-color: #4cceae!important;
-		background: radial-gradient(circle,#444444,#42d4b0);
-		padding: .4vw;
+		background: radial-gradient(circle,#c5c4c4,#42d4b0);
+		padding: 4vw;
 		width: 15rem;
 		border-radius: 8px;
 		margin: 1.5vw;
@@ -84,18 +84,23 @@
 		width: 90%;
 		border-radius: 1vh;
 	}
-	.cardName, .txtVermas {
+	.cardName {
 		font-family: Cinzel;
 		color: #fff;
-		font-size: 0.5rem;
+		font-size: 1.5vw;
+	}
+	.txtVermas {
+		font-family: Cinzel;
+		color: #fff;
+		font-size: 1vw;
 	}
 	.containerVermas {
 		font-family: Helvetica;
 		font-size: 1vw;
 		background-color: #424a5e;
-		border-radius: 1vw;
+		border-radius: 0.8vw;
 	}
 	.continent{
-		font-size: 1vw;
+		font-size: 1.2vw;
 	}
 }

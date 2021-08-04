@@ -12,13 +12,17 @@
 
 }
 .list li{
-    margin:10px;
-    padding: 1vw;
-    color: #000000;
-    text-align: center;
-    padding: 1vw;
-    font-weight: bold;
-    font-size: 3vw;
+    
+        /* margin: 10px; */
+        color: #000;
+        text-align: center;
+        padding: 2vw;
+        font-weight: 700;
+        font-size: 3vw;
+        /* font-size: 200%; */
+        /* margin-right: 10px; */
+        align-content: space-between;
+        border-left: 1vw;
     
 }
 .list li a{

@@ -31,12 +31,11 @@
 	
 	color: white;
 }
-.pActt{
-	font-size: 1.7vw;
-	color:rgb(134, 225, 250);
-
+.pActt {
+    font-size: 3vw;
+    color: #86e1fa;
 }
-p {
+.pActt p {
 	text-align: center;
 	color: rgb(255, 255, 255);
 	font-size: 1.3vw;
@@ -46,8 +45,8 @@ p:hover{
 	color: white;
 }
 .pAct {
-	font-size: 1.6vw;
-	color:rgb(134, 225, 250);
+	font-size: 2vw;
+		color: #86e1fa;
 }
 .pActname {
 	font-size: 1.2vw;
@@ -64,9 +63,24 @@ h3{
 }
 .span{
 	color: rgb(20, 165, 209);
-	font-size: 1.3vw;
+	font-size: 0.6rem;
 }
 .spann{
 	color: rgb(20, 165, 209);
-	font-size: 1.4vw;
+	font-size: 3vw;
+}
+
+@media (max-width:480px){
+	.detailsItems{
+		font-family: Cinzel;
+		font-size: 0.5rem;
+	}
+	.pAct {
+		font-size: 0.7rem;
+		color: #86e1fa;
+	}
+	.spann {
+		font-size: 0.6rem;
+	}
+
 }

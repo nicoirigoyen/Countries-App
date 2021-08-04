@@ -34,12 +34,12 @@ const CardDetail= ({Detail}) =>{
             <img className='imageCard' src={countryy.image} alt='#'></img>
             <div className='InfoCard'>
                 <p className='pActt'>Details: </p>
-                <p>Code: {countryy.id}</p>
-                <p>Continent: {countryy.continent}</p>
-                <p>Capital: {countryy.capital}</p>
-                <p>Subregion: {countryy.subregion}</p>
-                <p>Area: {countryy.area}m2</p>
-                <p>Population: {countryy.population}</p>
+                <p className='detailsItems'>Code: {countryy.id}</p>
+                <p className='detailsItems'>Continent: {countryy.continent}</p>
+                <p className='detailsItems'>Capital: {countryy.capital}</p>
+                <p className='detailsItems'>Subregion: {countryy.subregion}</p>
+                <p className='detailsItems'>Area: {countryy.area}m2</p>
+                <p className='detailsItems'>Population: {countryy.population}</p>
                 <p className='spann'>-------------------------------------------------</p>
                 <p className='pAct'>Activities: {countryy.activities.map((s) =>(
                   <div key={s.id}>
