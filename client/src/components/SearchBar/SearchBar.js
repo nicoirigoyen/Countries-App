@@ -1,8 +1,6 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-// import { NavLink } from "react-router-dom";
-// import Card from "../Home/Card/Card";
+import { useDispatch } from "react-redux";
 import "./SearchBar.css";
 
 import { getNameCountry, orderPopu,orderContinent,ordering,getCountriesAct } from "../../redux/actions";
@@ -48,11 +46,7 @@ export default function SearchBar() {
     setOrderpopu("");
     setOrderpopu(e.target.name = [e.target.value])
   }
-  const handleCountriesAct = (e)=>{
-    e.preventDefault();
-    dispatch(getCountriesAct());
 
-  }
 
   return (
  

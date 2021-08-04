@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { getCountries, getCountriesPag } from "../../redux/actions";
+import { getCountries } from "../../redux/actions";
 import Spinner from "../Spinner"
-import Pagination from './Pagination'
 import "./Home.css";
 import Card from "./Card/Card";
-import Footer from '../Footer/Footer'
 import SearchBar from "../SearchBar/SearchBar";
 
 const Home = () => {

@@ -30,9 +30,7 @@ const Crear = () => {
         setLoading(true)
       }, []);
 
-    // useEffect(() => {
-    //     setTimeout(dispatch(getIdCountries()),1000)
-    //   });
+ 
       
 
 
@@ -51,7 +49,6 @@ const Crear = () => {
     
     const handleSubmit = (event) => {
         event.preventDefault();
-        console.log(pais)
         dispatch(postCountry(form, pais))
         .then(()=>alert('Activity Created'))
         event.target.reset();

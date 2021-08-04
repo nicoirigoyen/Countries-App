@@ -114,7 +114,7 @@ export const getCountriesAct = () => {
         const request = await axios.get(`${FILTER_URL}/activities`)
         dispatch({
             type: 'GET_COUNTRIES_ACT', payload: request.data.map(country => {
-                 if(country.activities.length >0) {
+                 if(country.activities.length > 0) {
                 return {
                     name: country.name,
                     image: country.image,
@@ -139,9 +139,8 @@ export const getCountriesPag = (page) => {
 
 
 export const postCountry = (form, countries) => {
-    console.log('ENTRO A LA ACCION!')
     return async () => {
-        await axios.post(`${BASE_URL}/activities`, Object.assign(form, { Countries: countries }))
+        await axios.post(`${BASE_URL}/api/activities`, Object.assign(form, { Countries: countries }))
     }
 }
 
