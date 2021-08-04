@@ -2,6 +2,7 @@
      background-color: rgba(66, 212, 175, 0.575) !important;
 }
 
+
 .list{
     width: 100vw;
     display: flex;
@@ -17,7 +18,7 @@
     text-align: center;
     padding: 1vw;
     font-weight: bold;
-    
+    font-size: 3vw;
     
 }
 .list li a{
@@ -33,7 +34,7 @@
 
 
  .tituloNavBar{
-    font-size: 4vw;
+    font-size: 5vw;
     font-family: Rajdhani;
     text-align: start;
     display:contents;
