@@ -3,7 +3,7 @@ import { BASE_URL, GET_COUNTRIES, FILTER_URL } from '../consts.js'
 
 export const getCountries = () => {
     return async (dispatch) => {
-        const request = await axios.get(`${GET_COUNTRIES}/api`)
+        const request = await axios.get(`${GET_COUNTRIES}`)
         console.log(request.data+' action data getcountries')
         dispatch({
             type: 'GET_COUNTRIES', payload: request.data.map(country => {
