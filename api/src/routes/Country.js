@@ -26,7 +26,7 @@ server.get("/api/:id", async (req, res, next) => {
       
 
 
-server.get("/api/name", async (req, res, next) => {
+server.get("/api", async (req, res, next) => {
 
   const {page} = req.query;
   const pag = page * 10
