@@ -146,8 +146,8 @@
         font-size: 2vw;
     }
     .selectedCountries{
-        /* width: 38rem;
-        height: 6rem; */
+        width: 10vw;
+        height: 5vw;
     }
     .selectedCountries:focus{outline: none;}
     .crear{
