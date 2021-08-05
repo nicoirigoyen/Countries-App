@@ -9,7 +9,7 @@
     min-height:100vh; 
 }
 .formAct{
-    align-items: center;
+    /* align-items: center; */
     justify-content:center;
     border-radius:5vw;
     background: rgb(0,0,0);
@@ -146,8 +146,7 @@
         font-size: 2vw;
     }
     .selectedCountries{
-        width: 10vw;
-        height: 5vw;
+        width: 40vw;
     }
     .selectedCountries:focus{outline: none;}
     .crear{
@@ -166,10 +165,10 @@
         color:rgb(55, 170, 212);
     }
     .Paises{
-    display:flex;
+    /* display:flex; */
     flex-direction:column;
-    justify-content:space-between;
-    height:5rem;
+    /* justify-content:space-between; */
+    /* height:5rem; */
     width: 12rem;
     /* border-radius: 5px; */
     }
