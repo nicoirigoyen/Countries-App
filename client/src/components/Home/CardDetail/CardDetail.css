@@ -15,9 +15,9 @@
 	box-shadow: 0 2px 80px rgba(0, 0, 0, 0.87);
 	background: #141E30;  
 	background: linear-gradient(to right, #0c294b, #0f1f49); 
-	width: 70%;
+	width: 50%;
 	border-radius: 8px;
-
+	height: 70%;
 	margin: 1.5vw;
 	text-align: center;
 	
