@@ -30,11 +30,8 @@
 }
 .containerVermas{
 
-	font-family:Helvetica;
-	font-size: 1vw;
-	background-color:#424a5e;
-	border-radius: 1vw;
-	height: 2vw;
+	font-family: Helvetica;
+    font-size: 1vw;
 	/* padding: 0.5; */
     
 }
@@ -93,8 +90,8 @@
 		font-family:Cinzel;
 		text-decoration: none;
 		color: white;
-		padding: 1vw;
-		font-size: 1vw;
+		padding: 0.7vw;
+		font-size: 2vw;
 		text-align: center;
 	}
 	.containerVermas {
@@ -102,7 +99,7 @@
 		border-radius: 0.8vw;
 	}
 	.card p{
-		font-size: 1.2vw;
+		font-size: 3vw;
 	}
 
 }
