@@ -15,7 +15,7 @@
 	box-shadow: 0 2px 80px rgba(0, 0, 0, 0.87);
 	background: #141E30;  
 	background: linear-gradient(to right, #0c294b, #0f1f49); 
-	width: 30vw;
+	width: 70%;
 	border-radius: 8px;
 
 	margin: 1.5vw;
@@ -63,11 +63,11 @@ h3{
 }
 .span{
 	color: rgb(20, 165, 209);
-	font-size: 0.6rem;
+	
 }
 .spann{
 	color: rgb(20, 165, 209);
-	font-size: 3vw;
+	
 }
 
 @media (max-width:480px){
