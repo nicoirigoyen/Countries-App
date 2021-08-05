@@ -74,6 +74,7 @@ h3{
 	.detailsItems{
 		font-family: Cinzel;
 		font-size: 0.5rem;
+		color: white;
 	}
 	.pAct {
 		font-size: 0.7rem;
@@ -82,5 +83,14 @@ h3{
 	.spann {
 		font-size: 0.6rem;
 	}
-
+	.CardDetail {
+		box-shadow: 0 2px 80px rgb(0 0 0 / 87%);
+		background: #141e30;
+		background: linear-gradient(90deg,#0c294b,#0f1f49);
+		width: 80%;
+		border-radius: 8px;
+		margin: 1.5vw;
+		text-align: center;
+		transition: all .25s;
+	}
 }

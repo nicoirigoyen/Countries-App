@@ -66,16 +66,16 @@
 }  */
 .navbarItem{
     font-family: Cinzel;
-    position: absolute;
+    position: fixed;
     right: 8vw;
     font-size: 1.8vw;
     text-decoration: underline;
 }
 .navbarItem2{
     font-family: Cinzel;
-    position: absolute;
-    right: 14vw;
-    font-size: 1.8vw;
+    position: fixed;
+    left: 75%;
+    /* font-size: 1.8vw; */
     text-decoration: underline;
 }
 .iconGithub{
