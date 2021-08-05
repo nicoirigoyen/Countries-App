@@ -58,26 +58,18 @@
     display: contents;
     
 }
-/* .titulo:hover,
-.titulo.active {
-   
-    color: #ff533c;
-    transition: 100ms ease-in-out;
-}  */
-.navbarItem{
+.navbarItem, .navbarItem2{
     font-family: Cinzel;
-    position: fixed;
-    right: 8vw;
-    font-size: 1.8vw;
-    text-decoration: underline;
 }
-.navbarItem2{
+.navbarItem{
+    margin-left: 30%;
+}
+/* .navbarItem2{
     font-family: Cinzel;
     position: fixed;
     left: 75%;
-    /* font-size: 1.8vw; */
     text-decoration: underline;
-}
+} */
 .iconGithub{
    padding: 10px;
   
