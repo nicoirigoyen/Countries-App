@@ -86,7 +86,10 @@
     background: linear-gradient(to right, #E9E4F0, #D3CCE3) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     flex-wrap: wrap;
     justify-content: center;
-    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    min-height: 100vh;
 }
 @media (min-width:480px){
  .container{   
