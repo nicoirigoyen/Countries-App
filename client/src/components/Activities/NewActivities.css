@@ -172,3 +172,62 @@
     width: 12rem;
     /* border-radius: 5px; */
     }
+
+    @media (min-width:480px){
+        .formAct {
+            justify-content: center;
+            border-radius: 5vw;
+            background: #000;
+            background: linear-gradient(0,rgba(0,0,0,.6) 50%,rgba(34,41,43,.6));
+            margin: 10vw;
+            padding: 10vw;
+            width: 60%;
+            height: 70vw;
+            text-align: center;
+        }
+        .dificultty{
+            margin-top: 0.8%;
+            display:flex;
+            justify-content: space-between;
+            font-size: 2.4vw;
+            font-family: Playball;
+            color: rgb(74, 175, 197);
+        }
+        .name{
+            margin-top: 0.8%;
+            display:flex;
+            justify-content: space-between;
+            font-size: 2.4vw;
+            font-family: Playball;
+            color: rgb(74, 175, 197);
+        }
+        .duration{
+            margin-top: 0.8%;
+            display:flex;
+            justify-content: space-between;
+            font-size: 2.4vw;
+            font-family: Playball;
+            color: rgb(74, 175, 197);
+        }
+        .season{
+            margin-top: 0.8%;
+            display:flex;
+            justify-content: space-between;
+            font-size: 2.4vw;
+            font-family: Playball;
+            color: rgb(74, 175, 197);
+        }
+        .titleSelected {
+            margin-top: 1vw;
+            font-size: 2.5vw;
+        }
+        .crear {
+            font-size: 2.4vw;
+            border-radius: 8vw;
+            margin-top: 2vw;
+            margin-left: 30%;
+            text-align: center;
+            font-family: Playball;
+            width: 25vw;
+        }
+       }
