@@ -87,20 +87,18 @@
 	.cardName {
 		font-family: Cinzel;
 		color: #fff;
-		font-size: 4.8vw;
+		font-size: 4vw;
 	}
 	.txtVermas {
 		font-family: Cinzel;
 		color: #fff;
-		font-size: 1vw;
+		font-size: 1.5vw;
 	}
 	.containerVermas {
-		font-family: Helvetica;
-		font-size: 2vw;
 		background-color: #424a5e;
 		border-radius: 0.8vw;
 	}
-	.continent{
-		font-size: 3vw;
+	.card p{
+		
 	}
 }
