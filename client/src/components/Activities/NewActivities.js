@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { postCountry, getCountries, getIdCountries } from '../../redux/actions/index'
 import Card from '../Home/Card/Card'
 import '../Activities/NewActivities.css'
+import swal from 'sweetalert2'
  
 const Crear = () => {
     const dispatch = useDispatch();
@@ -50,7 +51,7 @@ const Crear = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
         dispatch(postCountry(form, pais))
-        .then(()=>alert('Activity Created'))
+        swal("Enhorabuena!", "Actividad creada con exito!", "success");
         event.target.reset();
     };
 return (
@@ -92,7 +93,7 @@ return (
                 </select>}
             </div>
                 
-            <input className='crear' type='submit' value='Add' />
+            <input className='crear' type='submit' value='Add' onSubmit={handleSubmit} />
         </div>
                 
     </form>

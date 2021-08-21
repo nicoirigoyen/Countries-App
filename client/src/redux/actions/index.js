@@ -141,7 +141,7 @@ export const getCountriesPag = (page) => {
 
 export const postCountry = (form, countries) => {
     return async () => {
-        await axios.post(`${BASE_URL}/api/activities`, Object.assign(form, { Countries: countries }))
+        await axios.post(`${BASE_URL}/activities`, Object.assign(form, { Countries: countries }))
     }
 }
 

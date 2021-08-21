@@ -20,7 +20,7 @@ export default function NavBar() {
           <a href="/activities">Activities</a>
         </li>
         <li>
-        <a className='iconGithub' href='https://github.com/nicoirigoyen/PI-Countries-FT12'>
+        <a className='iconGithub'  href='https://github.com/nicoirigoyen/Countries-App' target="_blank">
               <img src={github} width="20px" height="20px" className='iconImg' alt=''></img>
           </a> 
         </li>
